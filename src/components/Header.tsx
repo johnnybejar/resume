@@ -1,13 +1,21 @@
+import "../styles/Header.css";
+
 function Header() {
   return (
-    <>
-      <h2>johnny b</h2>
-      <ul>
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Contact</li>
+    <div className="header">
+      <h2 className="name">john bejar</h2>
+      <ul className="navbar">
+        <li>
+          <a>About Me</a>
+        </li>
+        <li>
+          <a>Projects</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
       </ul>
-    </>
+    </div>
   );
 }
 
