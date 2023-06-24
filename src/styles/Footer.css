@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-text {
+  grid-area: 1 / 1 / 2 / 2;
+  font-size: 1em;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.footer-icon {
+  max-width: 40px;
+  grid-area: 2 / 1 / 3 / 2;
+}
