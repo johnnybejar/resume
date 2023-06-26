@@ -1,11 +1,18 @@
 .footer {
+  /* keeps the footer stickied to the bottom */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
   display: flex;
+  padding-bottom: 0.5em;
   flex-direction: column;
   gap: 5px;
+  margin-top: auto;
 }
 
 .footer-text {
-  grid-area: 1 / 1 / 2 / 2;
   font-size: 1em;
 }
 
@@ -17,5 +24,4 @@
 
 .footer-icon {
   max-width: 40px;
-  grid-area: 2 / 1 / 3 / 2;
 }
