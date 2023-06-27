@@ -10,11 +10,13 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/" Component={About} />
-        <Route path="/Projects" Component={Projects} />
-        <Route path="/Contact" Component={Contact} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" Component={About} />
+          <Route path="/Projects" Component={Projects} />
+          <Route path="/Contact" Component={Contact} />
+        </Routes>
+      </div>
       <Footer />
     </BrowserRouter>
   );

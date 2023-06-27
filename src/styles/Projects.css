@@ -1,0 +1,26 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: first baseline; */
+  text-align: center;
+  gap: 1em;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+.project-header {
+  margin: 0;
+}
+
+.vertical-line {
+  border-left: 2px solid white;
+}
+
+.project-description {
+  margin: 0;
+}

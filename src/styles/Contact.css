@@ -1,4 +1,5 @@
 .contact {
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,4 +18,8 @@
 
 .phone {
   display: flex;
+}
+
+.contact-message {
+  margin-top: 1em;
 }
