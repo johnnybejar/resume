@@ -7,7 +7,7 @@ function Projects() {
         <h3 className="project-header">rate my class</h3>
         <div className="vertical-line"></div>
         <p className="project-description">
-          social media web application built in
+          social media web application built in react with a firebase backend
         </p>
       </div>
       <div className="project">
@@ -25,7 +25,9 @@ function Projects() {
       <div className="project">
         <h3 className="project-header">dot clicker</h3>
         <div className="vertical-line"></div>
-        <p className="project-description"></p>
+        <p className="project-description">
+          simple react project where the user can put dots on the screen
+        </p>
       </div>
     </div>
   );

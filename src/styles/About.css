@@ -2,5 +2,21 @@
   max-width: 500px;
 }
 
-.about-content {
+.tech {
+  margin-top: 3em;
+}
+
+.tech-title {
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.3em;
+  flex-wrap: wrap;
+}
+
+.dev-icons {
+  max-width: 90px;
 }
