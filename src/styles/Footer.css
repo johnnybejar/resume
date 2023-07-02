@@ -1,15 +1,9 @@
 .footer {
-  /* keeps the footer stickied to the bottom */
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-
   display: flex;
   padding-bottom: 0.5em;
   flex-direction: column;
   gap: 5px;
-  margin-top: auto;
+  margin-top: 3em;
 }
 
 .footer-text {

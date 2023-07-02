@@ -5,12 +5,19 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "../src/styles/App.css";
+import Box from "./components/Box";
+import { Canvas } from "@react-three/fiber";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div className="content">
+      <Canvas className="animation">
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Box position={[0, 0, 0]} />
+      </Canvas>
+      <div className="main">
         <Routes>
           <Route path="/" Component={About} />
           <Route path="/Projects" Component={Projects} />

@@ -4,7 +4,7 @@ import "../styles/Header.css";
 function Header() {
   return (
     <div className="header">
-      <h2 className="name">john bejar</h2>
+      <h2 className="name">John Bejar</h2>
       <ul className="navbar">
         <li>
           <NavLink className="link" to="/">
