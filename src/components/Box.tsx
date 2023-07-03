@@ -5,19 +5,17 @@ import { useFrame, ThreeElements } from "@react-three/fiber";
 function Box(props: ThreeElements["mesh"]) {
   const ref = useRef<THREE.Mesh>(null!);
   const [hovered, hover] = useState(false);
-  const [clicked, click] = useState(false);
   useFrame((_, delta) => (ref.current.rotation.y += delta));
   return (
     <mesh
       {...props}
+      scale={2.4}
       ref={ref}
-      scale={clicked ? 3 : 2}
-      rotation={new THREE.Euler(1, 1, 1, "XZY")}
-      onClick={() => click(!clicked)}
+      rotation={new THREE.Euler(3, 2, 3, "XYZ")}
       onPointerOver={() => hover(true)}
       onPointerOut={() => hover(false)}
     >
-      <sphereGeometry args={[1, 5, 5]} />
+      <sphereGeometry args={[1, 15, 15]} />
       <meshStandardMaterial
         color={hovered ? "hotpink" : "teal"}
         roughness={5}
