@@ -12,12 +12,17 @@ function Box(props: ThreeElements["mesh"]) {
       {...props}
       ref={ref}
       scale={clicked ? 3 : 2}
+      rotation={new THREE.Euler(1, 1, 1, "XZY")}
       onClick={() => click(!clicked)}
       onPointerOver={() => hover(true)}
       onPointerOut={() => hover(false)}
     >
-      <sphereGeometry args={[1, 16, 16]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "teal"} />
+      <sphereGeometry args={[1, 5, 5]} />
+      <meshStandardMaterial
+        color={hovered ? "hotpink" : "teal"}
+        roughness={5}
+        metalness={0.65}
+      />
     </mesh>
   );
 }

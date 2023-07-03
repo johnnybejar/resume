@@ -12,11 +12,13 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Canvas className="animation">
-        <ambientLight />
-        <pointLight position={[10, 10, 10]} />
-        <Box position={[0, 0, 0]} />
-      </Canvas>
+      <div className="animation">
+        <Canvas>
+          <ambientLight />
+          <pointLight position={[10, 10, 10]} />
+          <Box position={[0, 0, 1]} />
+        </Canvas>
+      </div>
       <div className="main">
         <Routes>
           <Route path="/" Component={About} />

@@ -18,6 +18,8 @@ body {
 }
 
 .animation {
-  display: flex;
-  background-color: green;
+  position: absolute;
+  width: 130px;
+  top: 0;
+  right: 0;
 }
