@@ -15,12 +15,19 @@
   list-style: none;
 }
 
-.link {
+.isPending {
   color: white;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 300ms;
 }
 
-.link:hover {
-  transition: 500ms;
-  text-decoration: underline;
+.isActive {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.isPending:hover {
+  border-color: white;
 }

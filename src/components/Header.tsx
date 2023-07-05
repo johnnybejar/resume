@@ -7,17 +7,32 @@ function Header() {
       <h2 className="name">John Bejar</h2>
       <ul className="navbar">
         <li>
-          <NavLink className="link" to="/">
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "isPending" : isActive ? "isActive" : "isPending"
+            }
+          >
             About Me
           </NavLink>
         </li>
         <li>
-          <NavLink className="link" to="/Projects">
+          <NavLink
+            to="/Projects"
+            className={({ isActive, isPending }) =>
+              isPending ? "isPending" : isActive ? "isActive" : "isPending"
+            }
+          >
             Projects
           </NavLink>
         </li>
         <li>
-          <NavLink className="link" to="/Contact">
+          <NavLink
+            to="/Contact"
+            className={({ isActive, isPending }) =>
+              isPending ? "isPending" : isActive ? "isActive" : "isPending"
+            }
+          >
             Contact
           </NavLink>
         </li>
