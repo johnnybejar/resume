@@ -34,7 +34,13 @@ function Projects() {
         <div className="horizontal-rule"></div>
       </div>
       <div className="project">
-        <h3 className="project-header">albums4you</h3>
+        <a
+          className="project-link"
+          href="https://github.com/johnnybejar/albums4you"
+          target="_blank"
+        >
+          <h3 className="project-header">albums4you</h3>
+        </a>
         <p className="project-description">
           public forum website where users can share albums
         </p>
@@ -74,6 +80,29 @@ function Projects() {
             className="project-tech-logo"
             src="src/assets/devicons/dart.svg"
             title="Dart"
+          />
+        </div>
+        <div className="horizontal-rule"></div>
+      </div>
+      <div className="project">
+        <a
+          className="project-link"
+          href="https://github.com/johnnybejar/resume"
+          target="_blank"
+        >
+          <h3 className="project-header">resume website</h3>
+        </a>
+        <p className="project-description">react application</p>
+        <div className="project-tech">
+          <img
+            className="project-tech-logo"
+            src="src/assets/devicons/react.svg"
+            title="React"
+          />
+          <img
+            className="project-tech-logo"
+            src="src/assets/devicons/typescript.svg"
+            title="Typescript"
           />
         </div>
         <div className="horizontal-rule"></div>

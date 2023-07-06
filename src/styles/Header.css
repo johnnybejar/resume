@@ -5,6 +5,18 @@
   justify-content: center;
 }
 
+.animation {
+  position: absolute;
+  /* width: 200px; */
+  height: 210px;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* margin-left: auto;
+  margin-right: auto; */
+  z-index: -1;
+}
+
 .name {
   text-decoration: underline;
 }

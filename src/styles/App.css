@@ -28,3 +28,33 @@ body {
   margin-right: auto; */
   z-index: -1;
 }
+
+.about {
+  animation: fade-in 1s;
+}
+
+.projects {
+  animation: fade-in 1s;
+}
+
+.contact {
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+}

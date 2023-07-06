@@ -1,9 +1,18 @@
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
+import { Canvas } from "@react-three/fiber";
+import Box from "./Box";
 
 function Header() {
   return (
     <div className="header">
+      <div className="animation">
+        <Canvas>
+          <ambientLight />
+          <pointLight position={[10, 10, 10]} />
+          <Box position={[0, 0, 1]} />
+        </Canvas>
+      </div>
       <h2 className="name">John Bejar</h2>
       <ul className="navbar">
         <li>
