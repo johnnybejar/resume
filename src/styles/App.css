@@ -17,19 +17,22 @@ body {
   margin-top: 2em;
 }
 
-.animation {
-  position: absolute;
-  /* width: 200px; */
-  height: 210px;
-  left: 0;
-  right: 0;
-  top: 0;
-  /* margin-left: auto;
-  margin-right: auto; */
-  z-index: -1;
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
 }
 
-.about {
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms ease-in;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  /* transition: opacity 400ms ease-in; */
+}
+
+/* .about {
   animation: fade-in 1s;
 }
 
@@ -39,9 +42,9 @@ body {
 
 .contact {
   animation: fade-in 1s;
-}
+} */
 
-@keyframes fade-in {
+/* @keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -57,4 +60,4 @@ body {
   to {
     opacity: 0;
   }
-}
+} */
