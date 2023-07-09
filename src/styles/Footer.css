@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 5px;
   margin-top: 3em;
+  transition: 500ms;
 }
 
 .footer-text {
