@@ -1,10 +1,10 @@
 .footer {
   display: flex;
+  width: 100%;
+  margin-top: auto;
   padding-bottom: 0.5em;
   flex-direction: column;
   gap: 5px;
-  margin-top: 3em;
-  transition: 500ms;
 }
 
 .footer-text {

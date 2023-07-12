@@ -1,9 +1,16 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 body {
+  width: 500px;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   place-items: center;
-  padding: 2rem;
   text-align: center;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,53 +21,5 @@ body {
 }
 
 .main {
-  margin-top: 2em;
+  margin-top: 3em;
 }
-
-.fade-enter {
-  opacity: 0;
-}
-
-.fade-enter-active {
-  opacity: 1;
-  transition: opacity 400ms ease-in;
-}
-
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit-active {
-  opacity: 0;
-  /* transition: opacity 400ms ease-in; */
-}
-
-/* .about {
-  animation: fade-in 1s;
-}
-
-.projects {
-  animation: fade-in 1s;
-}
-
-.contact {
-  animation: fade-in 1s;
-} */
-
-/* @keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 100;
-  }
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 100;
-  }
-  to {
-    opacity: 0;
-  }
-} */

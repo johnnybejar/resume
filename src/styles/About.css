@@ -19,4 +19,9 @@
 
 .dev-icon {
   max-width: 90px;
+  transition: 200ms;
+}
+
+.dev-icon:hover {
+  scale: 1.1;
 }
