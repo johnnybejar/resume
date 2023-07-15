@@ -11,7 +11,7 @@
   font-size: 1em;
 }
 
-.icons {
+.footer-icons {
   display: flex;
   justify-content: center;
   gap: 7px;
@@ -19,4 +19,9 @@
 
 .footer-icon {
   max-width: 40px;
+  transition: 100ms;
+}
+
+.footer-icon:hover {
+  scale: 1.1;
 }

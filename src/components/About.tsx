@@ -10,11 +10,11 @@ function About() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.4 }}
     >
-      <p className="about-content">
+      <p className="about-text">
         hey! im john bejar, an aspiring programmer interested in software
         engineering and web developement.
       </p>
-      <p className="about-content">
+      <p className="about-text">
         i am currently studying at the university of north carolina - wilmington
         majoring in computer science with a concentration in software
         engineering.
@@ -24,7 +24,7 @@ function About() {
         <span className="tech-title">
           list of tech that i have worked with:
         </span>
-        <div className="icons">
+        <div className="about-icons">
           <img
             className="dev-icon"
             src="src/assets/devicons/typescript.svg"

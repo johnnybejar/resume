@@ -13,6 +13,7 @@ body {
   place-items: center;
   text-align: center;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -21,5 +22,5 @@ body {
 }
 
 .main {
-  margin-top: 3em;
+  margin-top: 1em;
 }

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <span className="footer-text">created by john bejar</span>
-      <div className="icons">
+      <div className="footer-icons">
         <a href="https://github.com/johnnybejar" target="_blank">
           <img className="footer-icon" src="src/assets/github.png"></img>
         </a>

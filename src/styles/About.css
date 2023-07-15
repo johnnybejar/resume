@@ -1,5 +1,10 @@
 .about {
   max-width: 500px;
+  margin-bottom: 1em;
+}
+
+.about-text {
+  margin-top: 0;
 }
 
 .tech {
@@ -10,9 +15,11 @@
   text-decoration: underline;
 }
 
-.icons {
+.about-icons {
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  gap: 7px;
   margin-top: 0.3em;
   flex-wrap: wrap;
 }
