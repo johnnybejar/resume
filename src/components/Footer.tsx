@@ -6,10 +6,10 @@ function Footer() {
       <span className="footer-text">created by john bejar</span>
       <div className="footer-icons">
         <a href="https://github.com/johnnybejar" target="_blank">
-          <img className="footer-icon" src="src/assets/github.png"></img>
+          <img className="footer-icon" src="static/images/github.png"></img>
         </a>
         <a href="https://www.linkedin.com/in/jbejarcs/" target="_blank">
-          <img className="footer-icon" src="src/assets/linkedin.png"></img>
+          <img className="footer-icon" src="static/images/linkedin.png"></img>
         </a>
       </div>
     </div>

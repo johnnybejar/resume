@@ -27,61 +27,61 @@ function About() {
         <div className="about-icons">
           <img
             className="dev-icon"
-            src="src/assets/devicons/typescript.svg"
+            src="static/images/devicons/typescript.svg"
             alt="dev icon"
             title="Typescript"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/python.svg"
+            src="static/images/devicons/python.svg"
             alt="dev icon"
             title="Python"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/java.svg"
+            src="static/images/devicons/java.svg"
             alt="dev icon"
             title="Java"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/react.svg"
+            src="static/images/devicons/react.svg"
             alt="dev icon"
             title="React"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/html.svg"
+            src="static/images/devicons/html.svg"
             alt="dev icon"
             title="HTML"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/css.svg"
+            src="static/images/devicons/css.svg"
             alt="dev icon"
             title="CSS"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/php.svg"
+            src="static/images/devicons/php.svg"
             alt="dev icon"
             title="PHP"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/dart.svg"
+            src="static/images/devicons/dart.svg"
             alt="dev icon"
             title="Dart"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/mysql.svg"
+            src="static/images/devicons/mysql.svg"
             alt="dev icon"
             title="MySQL"
           />
           <img
             className="dev-icon"
-            src="src/assets/devicons/rust.svg"
+            src="static/images/devicons/rust.svg"
             alt="dev icon"
             title="Rust"
           />

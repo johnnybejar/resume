@@ -24,17 +24,17 @@ function Projects() {
         <div className="project-tech">
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/react.svg"
+            src="static/images/devicons/react.svg"
             title="React"
           />
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/firebase.svg"
+            src="static/images/devicons/firebase.svg"
             title="Firebase"
           />
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/node.svg"
+            src="static/images/devicons/node.svg"
             title="NodeJS"
           />
         </div>
@@ -54,12 +54,12 @@ function Projects() {
         <div className="project-tech">
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/php.svg"
+            src="static/images/devicons/php.svg"
             title="PHP"
           />
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/mysql.svg"
+            src="static/images/devicons/mysql.svg"
             title="MySQL"
           />
         </div>
@@ -80,12 +80,12 @@ function Projects() {
         <div className="project-tech">
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/flutter.svg"
+            src="static/images/devicons/flutter.svg"
             title="Flutter"
           />
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/dart.svg"
+            src="static/images/devicons/dart.svg"
             title="Dart"
           />
         </div>
@@ -103,12 +103,12 @@ function Projects() {
         <div className="project-tech">
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/react.svg"
+            src="static/images/devicons/react.svg"
             title="React"
           />
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/typescript.svg"
+            src="static/images/devicons/typescript.svg"
             title="Typescript"
           />
         </div>
@@ -126,7 +126,7 @@ function Projects() {
         <div className="project-tech">
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/java.svg"
+            src="static/images/devicons/java.svg"
             title="Java"
           />
         </div>
@@ -146,12 +146,12 @@ function Projects() {
         <div className="project-tech">
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/react.svg"
+            src="static/images/devicons/react.svg"
             title="React"
           />
           <img
             className="project-tech-logo"
-            src="src/assets/devicons/typescript.svg"
+            src="static/images/devicons/typescript.svg"
             title="Typescript"
           />
         </div>
