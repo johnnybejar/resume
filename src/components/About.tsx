@@ -24,7 +24,7 @@ function About() {
         <span className="tech-title">
           list of tech that i have worked with:
         </span>
-        <div className="about-icons">
+        <div className="dev-icons">
           <img
             className="dev-icon"
             src="static/images/devicons/typescript.svg"
@@ -63,6 +63,12 @@ function About() {
           />
           <img
             className="dev-icon"
+            src="static/images/devicons/express.svg"
+            alt="dev icon"
+            title="Express"
+          />
+          <img
+            className="dev-icon"
             src="static/images/devicons/php.svg"
             alt="dev icon"
             title="PHP"
@@ -78,6 +84,12 @@ function About() {
             src="static/images/devicons/mysql.svg"
             alt="dev icon"
             title="MySQL"
+          />
+          <img
+            className="dev-icon"
+            src="static/images/devicons/mongodb.svg"
+            alt="dev icon"
+            title="MongoDB"
           />
           <img
             className="dev-icon"

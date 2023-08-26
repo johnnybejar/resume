@@ -15,7 +15,7 @@
   text-decoration: underline;
 }
 
-.about-icons {
+.dev-icons {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -25,7 +25,7 @@
 }
 
 .dev-icon {
-  max-width: 90px;
+  max-width: 70px;
   transition: 200ms;
 }
 
