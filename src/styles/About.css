@@ -24,8 +24,23 @@
   flex-wrap: wrap;
 }
 
+.dev-figure {
+  margin: 0;
+  color: rgba(255, 255, 255, 0);
+  transition: 200ms;
+  width: 75px;
+}
+
+.dev-figure:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
 .dev-icon {
   max-width: 70px;
+  transition: 200ms;
+}
+
+.fig-caption {
   transition: 200ms;
 }
 
