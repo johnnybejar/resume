@@ -55,3 +55,9 @@
   border-top: 1px solid grey;
   margin: 0.5em 0;
 }
+
+@media screen and (max-width: 500px) {
+  .horizontal-rule {
+    width: 200px;
+  }
+}

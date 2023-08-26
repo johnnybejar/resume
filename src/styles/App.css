@@ -24,3 +24,9 @@ body {
 .main {
   margin-top: 1em;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 250px;
+  }
+}
