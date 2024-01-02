@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid white;
 }
 
 .project-link {
@@ -23,10 +22,10 @@
 .project-header {
   margin: 0;
   text-decoration: underline;
+  transition: 200ms;
 }
 
 .project-header:hover {
-  transition: 200ms;
   color: grey;
 }
 
@@ -52,13 +51,7 @@
 }
 
 .horizontal-rule {
-  width: 490px;
+  width: 100%;
   border-top: 1px solid grey;
   margin: 0.5em 0;
-}
-
-@media screen and (max-width: 500px) {
-  .horizontal-rule {
-    width: 200px;
-  }
 }
