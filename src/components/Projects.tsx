@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
+import Project from "./Project";
+import projects from "../data/projects.json";
 import "../styles/Projects.css";
 
 function Projects() {
+  console.log(projects);
   return (
     <motion.div
       className="projects"
@@ -10,7 +13,14 @@ function Projects() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.4 }}
     >
-      <div className="project">
+      {projects.map((project) => {
+        return (
+          <div className="project">
+            <Project {...project}></Project>
+          </div>
+        );
+      })}
+      {/* <div className="project">
         <a
           className="project-link"
           href="https://github.com/damoninc/Hawkfinder"
@@ -155,7 +165,7 @@ function Projects() {
             title="Typescript"
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

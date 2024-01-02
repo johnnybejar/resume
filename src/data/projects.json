@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hawkfinder",
+    "description": "social media web application built in react with a firebase backend",
+    "link": "https://github.com/damoninc/Hawkfinder",
+    "icons": ["react", "firebase", "node"]
+  },
+  {
+    "name": "Film Docket",
+    "description": "web application where authenticated users can create lists of movies",
+    "link": "https://github.com/johnnybejar/movies",
+    "icons": ["react", "typescript", "mongodb", "node"]
+  },
+  {
+    "name": "Albums4You",
+    "description": "public forum website where users can share albums",
+    "link": "https://github.com/johnnybejar/albums4you",
+    "icons": ["php", "mysql"]
+  },
+  {
+    "name": "Rate My Class",
+    "description": "mobile application where uncw students can leave reviews on classes available",
+    "link": "https://github.com/johnnybejar/ratemyclass",
+    "icons": ["flutter", "dart"]
+  },
+  {
+    "name": "Resume Website",
+    "description": "this website you're currently on :^)",
+    "link": "https://github.com/johnnybejar/resume",
+    "icons": ["react", "typescript"]
+  },
+  {
+    "name": "Blackjack Card Game",
+    "description": "blackjack implemented in java",
+    "link": "https://github.com/johnnybejar/blackjack",
+    "icons": ["java"]
+  },
+  {
+    "name": "Dot Clicker",
+    "description": "simple react project where the user can put dots on the screen",
+    "link": "https://github.com/johnnybejar/dot-clicker",
+    "icons": ["react", "typescript"]
+  }
+]
