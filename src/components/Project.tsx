@@ -23,21 +23,6 @@ function Project(project: Project) {
             />
           );
         })}
-        {/* <img
-          className="project-tech-logo"
-          src="static/images/devicons/react.svg"
-          title="React"
-        />
-        <img
-          className="project-tech-logo"
-          src="static/images/devicons/firebase.svg"
-          title="Firebase"
-        />
-        <img
-          className="project-tech-logo"
-          src="static/images/devicons/node.svg"
-          title="NodeJS"
-        /> */}
       </div>
       <div className="horizontal-rule"></div>
     </>
