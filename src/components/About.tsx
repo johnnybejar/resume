@@ -15,9 +15,13 @@ function About() {
         engineering and web developement.
       </p>
       <p className="about-text">
-        i am currently studying at the university of north carolina - wilmington
-        majoring in computer science with a concentration in software
-        engineering.
+        i graduated from the university of north carolina - wilmington in spring
+        2024, receiving my bachelors of science, majoring in computer science
+        with a concentration in software engineering.
+      </p>
+      <p className="className">
+        i am currently looking for work, so please refer to my contact
+        information to get in touch!
       </p>
 
       <div className="tech">
