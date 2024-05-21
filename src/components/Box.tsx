@@ -3,16 +3,20 @@ import { useRef } from "react";
 import { useFrame, ThreeElements } from "@react-three/fiber";
 
 function Box(props: ThreeElements["mesh"]) {
-  const ref = useRef<THREE.Mesh>(null!);
-  useFrame((_, delta) => (ref.current.rotation.y += delta));
+  const ref = useRef<THREE.Mesh>(null);
+  useFrame((_, delta) => {
+    if (ref.current) {
+      ref.current.rotation.y += delta * 0.3
+    }
+  });
   return (
     <mesh
       {...props}
       scale={2.4}
-      ref={ref}
+      ref={ref as React.RefObject<THREE.Mesh<THREE.BufferGeometry>>}
       rotation={new THREE.Euler(3, 2, 3, "XZY")}
     >
-      <sphereGeometry args={[1, 15, 15]} />
+      <sphereGeometry args={[1, 40, 40]} />
       <meshStandardMaterial
         color={0x606060}
         roughness={1}
