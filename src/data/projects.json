@@ -3,7 +3,7 @@
     "name": "Hawkfinder",
     "description": "social media web application built in react with a firebase backend",
     "link": "https://github.com/damoninc/Hawkfinder",
-    "icons": ["react", "firebase", "node"]
+    "icons": ["react", "typescript","firebase", "node"]
   },
   {
     "name": "Film Docket",
@@ -28,6 +28,12 @@
     "description": "this website you're currently on :^)",
     "link": "https://github.com/johnnybejar/resume",
     "icons": ["react", "typescript"]
+  },
+  {
+    "name": "Weather Check",
+    "description": "simple weather app written in go",
+    "link": "https://github.com/johnnybejar/go-weatherapp",
+    "icons": ["go", "html", "css"]
   },
   {
     "name": "Blackjack Card Game",

@@ -131,11 +131,11 @@ function About() {
           <figure className="dev-figure">
             <img
               className="dev-icon"
-              src="static/images/devicons/rust.svg"
+              src="static/images/devicons/go.svg"
               alt="dev icon"
-              title="Rust"
+              title="Go"
             />
-            <figcaption className="fig-caption">Rust</figcaption>
+            <figcaption className="fig-caption">Go</figcaption>
           </figure>
         </div>
       </div>
