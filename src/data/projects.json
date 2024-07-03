@@ -12,6 +12,12 @@
     "icons": ["react", "typescript", "mongodb", "node"]
   },
   {
+    "name": "MySpotifyData",
+    "description": "a website where spotify users can look at their listening data",
+    "link": "https://github.com/johnnybejar/spotify-visualization",
+    "icons": ["react", "typescript", "css"]
+  },
+  {
     "name": "Albums4You",
     "description": "public forum website where users can share albums",
     "link": "https://github.com/johnnybejar/albums4you",
