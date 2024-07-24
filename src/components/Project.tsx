@@ -2,14 +2,14 @@ type Project = {
   name: string;
   description: string;
   link: string;
+  deploy_link: string;
   icons: string[];
 };
 
 function Project(project: Project) {
   return (
     <>
-      <a className="project-link" href={project.link} target="_blank">
-        <h3 className="project-header">{project.name}</h3>
+      <h3 className="project-header">{project.name}</h3>
         <p className="project-description">{project.description}</p>
         <div className="project-tech">
           {project.icons.map((icon) => {
@@ -23,7 +23,10 @@ function Project(project: Project) {
             );
           })}
         </div>
-      </a>
+        <div className="project-links">
+          <a href={project.link} className="project-link" target="_blank">Repository</a>
+          {project.deploy_link ? <a className="project-link" href={project.deploy_link} target="_blank">Deployment</a> : <></>}
+        </div>
     </>
   );
 }
