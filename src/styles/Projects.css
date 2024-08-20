@@ -57,7 +57,7 @@
 
 .project-tech-logo {
   width: 40px;
-  transition: 100ms;
+  transition: 200ms all;
 }
 
 .project-tech-logo:hover {

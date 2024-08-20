@@ -10,7 +10,6 @@ function Contact() {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.4 }}
     >
-      <span>you can contact me by email or phone:</span>
       <div className="email">
         <img className="contact-icon" src="static/images/email.png"></img>
         <span>jbejar2001@yahoo.com</span>
@@ -20,8 +19,10 @@ function Contact() {
         <span>9106226003 (pref. text)</span>
       </div>
       <span className="contact-message">
-        you can also message me at linkedin or check out my github in the footer
-        below!
+        Check out my 
+        <a href="https://github.com/johnnybejar" className="external-link">GitHub</a> 
+        for more of my projects or connect with me on 
+        <a href="https://www.linkedin.com/in/jbejarcs/" className="external-link">LinkedIn!</a>
       </span>
     </motion.div>
   );

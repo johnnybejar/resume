@@ -6,7 +6,7 @@ function Box(props: ThreeElements["mesh"]) {
   const ref = useRef<THREE.Mesh>(null);
   useFrame((_, delta) => {
     if (ref.current) {
-      ref.current.rotation.y += delta * 0.3
+      ref.current.rotation.y += delta * 0.1
     }
   });
   return (
@@ -16,7 +16,7 @@ function Box(props: ThreeElements["mesh"]) {
       ref={ref as React.RefObject<THREE.Mesh<THREE.BufferGeometry>>}
       rotation={new THREE.Euler(3, 2, 3, "XZY")}
     >
-      <sphereGeometry args={[1, 40, 40]} />
+      <sphereGeometry args={[1, 20, 20]} />
       <meshStandardMaterial
         color={0x606060}
         roughness={1}

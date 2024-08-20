@@ -1,56 +1,56 @@
 [
   {
     "name": "Hawkfinder",
-    "description": "social media web application built in react with a firebase backend",
+    "description": "Social media web application built in react with a firebase backend",
     "link": "https://github.com/damoninc/Hawkfinder",
     "deploy_link": "https://csc-450-project.web.app",
     "icons": ["react", "typescript","firebase", "node"]
   },
   {
     "name": "Film Docket",
-    "description": "web application where authenticated users can create lists of movies",
+    "description": "Web application where authenticated users can create lists of movies",
     "link": "https://github.com/johnnybejar/movies",
     "deploy_link": "",
     "icons": ["react", "typescript", "mongodb", "node"]
   },
   {
     "name": "MySpotifyData",
-    "description": "a website where spotify users can look at their listening data",
+    "description": "A website where spotify users can look at their listening data",
     "link": "https://github.com/johnnybejar/MyTopSpotify",
     "deploy_link": "https://topspotifystats.netlify.app/",
     "icons": ["react", "typescript", "css"]
   },
   {
     "name": "Albums4You",
-    "description": "public forum website where users can share albums",
+    "description": "Public forum website where users can share albums",
     "link": "https://github.com/johnnybejar/albums4you",
     "deploy_link": "",
     "icons": ["php", "mysql"]
   },
   {
     "name": "Rate My Class",
-    "description": "mobile application where uncw students can leave reviews on classes available",
+    "description": "Mobile application where uncw students can leave reviews on classes available",
     "link": "https://github.com/johnnybejar/ratemyclass",
     "deploy_link": "",
     "icons": ["flutter", "dart"]
   },
   {
     "name": "Resume Website",
-    "description": "this website you're currently on :^)",
+    "description": "This website you're currently on! :^)",
     "link": "https://github.com/johnnybejar/resume",
     "deploy_link": "https://johnbejarresume.vercel.app/",
     "icons": ["react", "typescript"]
   },
   {
     "name": "Weather Check",
-    "description": "simple weather app written in go",
+    "description": "Simple weather app written in go",
     "link": "https://github.com/johnnybejar/go-weatherapp",
     "deploy_link": "",
     "icons": ["go", "html", "css"]
   },
   {
     "name": "Blackjack Card Game",
-    "description": "blackjack implemented in java",
+    "description": "Blackjack implemented in java",
     "link": "https://github.com/johnnybejar/blackjack",
     "deploy_link": "",
     "icons": ["java"]

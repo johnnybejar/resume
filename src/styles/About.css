@@ -40,7 +40,7 @@
 }
 
 .dev-figure figcaption {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .dev-icon {

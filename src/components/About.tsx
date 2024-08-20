@@ -11,22 +11,24 @@ function About() {
       transition={{ duration: 0.4 }}
     >
       <p className="about-text">
-        hey! im john bejar, an aspiring programmer interested in software
-        engineering and web developement.
+        Thank you for visiting my page!
       </p>
       <p className="about-text">
-        i graduated from the university of north carolina - wilmington in spring
-        2024, receiving my bachelors of science, majoring in computer science
-        with a concentration in software engineering.
+        My name is John Bejar, I am an aspiring programmer 
+        interested in software engineering and web development
       </p>
-      <p className="className">
-        i am currently looking for work, so please refer to my contact
-        information to get in touch!
+      <p className="about-text">
+        I graduated from the University of North Carolina - Wilmingont in Spring 2024. 
+        I received my Bachelors of Science, with a major in Computer Science and a 
+        concentration in Software Engineering.
       </p>
-
+      <p className="about-text">
+        I am currently looking to begin working in the technology field. Please 
+        refer to my contact information to get in touch and thank you for your time!
+      </p>
       <div className="tech">
         <span className="tech-title">
-          list of tech that i have worked with:
+          Below is a list of technology I have experience working with:
         </span>
         <div className="dev-icons">
           <figure className="dev-figure">
