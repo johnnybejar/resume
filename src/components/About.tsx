@@ -70,6 +70,15 @@ function About() {
           <figure className="dev-figure">
             <img
               className="dev-icon"
+              src="static/images/devicons/node.svg"
+              alt="dev icon"
+              title="Node.js"
+            />
+            <figcaption className="fig-caption">Node.js</figcaption>
+          </figure>
+          <figure className="dev-figure">
+            <img
+              className="dev-icon"
               src="static/images/devicons/html.svg"
               alt="dev icon"
               title="HTML"
@@ -84,15 +93,6 @@ function About() {
               title="CSS"
             />
             <figcaption className="fig-caption">CSS</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/express.svg"
-              alt="dev icon"
-              title="Express"
-            />
-            <figcaption className="fig-caption">Express</figcaption>
           </figure>
           <figure className="dev-figure">
             <img
