@@ -15,10 +15,10 @@ function About() {
       </p>
       <p className="about-text">
         My name is John Bejar, I am an aspiring programmer 
-        interested in software engineering and web development
+        interested in software engineering and web development.
       </p>
       <p className="about-text">
-        I graduated from the University of North Carolina - Wilmingont in Spring 2024. 
+        I graduated from the University of North Carolina - Wilmington in Spring 2024. 
         I received my Bachelors of Science, with a major in Computer Science and a 
         concentration in Software Engineering.
       </p>
