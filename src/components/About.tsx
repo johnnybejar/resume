@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "../styles/About.css";
+import Icon from "./Icon";
 
 function About() {
   return (
@@ -31,114 +32,18 @@ function About() {
           Below is a list of technology I have experience working with:
         </span>
         <div className="dev-icons">
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/typescript.svg"
-              alt="dev icon"
-              title="Typescript"
-            />
-            <figcaption>Typescript</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/python.svg"
-              alt="dev icon"
-              title="Python"
-            />
-            <figcaption className="fig-caption">Python</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/java.svg"
-              alt="dev icon"
-              title="Java"
-            />
-            <figcaption className="fig-caption">Java</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/react.svg"
-              alt="dev icon"
-              title="React"
-            />
-            <figcaption className="fig-caption">React</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/node.svg"
-              alt="dev icon"
-              title="Node.js"
-            />
-            <figcaption className="fig-caption">Node.js</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/html.svg"
-              alt="dev icon"
-              title="HTML"
-            />
-            <figcaption className="fig-caption">HTML</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/css.svg"
-              alt="dev icon"
-              title="CSS"
-            />
-            <figcaption className="fig-caption">CSS</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/php.svg"
-              alt="dev icon"
-              title="PHP"
-            />
-            <figcaption className="fig-caption">PHP</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/dart.svg"
-              alt="dev icon"
-              title="Dart"
-            />
-            <figcaption className="fig-caption">Dart</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/mysql.svg"
-              alt="dev icon"
-              title="MySQL"
-            />
-            <figcaption className="fig-caption">MySQL</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/mongodb.svg"
-              alt="dev icon"
-              title="MongoDB"
-            />
-            <figcaption className="fig-caption">MongoDB</figcaption>
-          </figure>
-          <figure className="dev-figure">
-            <img
-              className="dev-icon"
-              src="static/images/devicons/go.svg"
-              alt="dev icon"
-              title="Go"
-            />
-            <figcaption className="fig-caption">Go</figcaption>
-          </figure>
+          <Icon {...{name: "Typescript", alphaname: "typescript"}} />
+          <Icon {...{name: "Python", alphaname: "python"}} />
+          <Icon {...{name: "Java", alphaname: "java"}} />
+          <Icon {...{name: "React", alphaname: "react"}} />
+          <Icon {...{name: "Node.js", alphaname: "nodejs"}} />
+          <Icon {...{name: "HTML", alphaname: "html"}} />
+          <Icon {...{name: "CSS", alphaname: "css"}} />
+          <Icon {...{name: "PHP", alphaname: "php"}} />
+          <Icon {...{name: "Dart", alphaname: "dart"}} />
+          <Icon {...{name: "MySQL", alphaname: "mysql"}} />
+          <Icon {...{name: "Typescript", alphaname: "typescript"}} />
+          <Icon {...{name: "Go", alphaname: "go"}} />
         </div>
       </div>
     </motion.div>
