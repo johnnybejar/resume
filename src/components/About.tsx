@@ -14,8 +14,8 @@ function About() {
         Thank you for visiting my page!
       </p>
       <p className="about-text">
-        My name is John Bejar, I am an aspiring programmer 
-        interested in software engineering and web development.
+        My name is John Bejar, I am a programmer 
+        concentrated in software engineering and web development.
       </p>
       <p className="about-text">
         I graduated from the University of North Carolina - Wilmington in Spring 2024. 
