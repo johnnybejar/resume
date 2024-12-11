@@ -4,14 +4,14 @@
     "description": "Social media web application built in react with a firebase backend",
     "link": "https://github.com/damoninc/Hawkfinder",
     "deploy_link": "https://csc-450-project.web.app",
-    "icons": ["react", "typescript","firebase", "node"]
+    "icons": ["react", "typescript","firebase", "nodejs"]
   },
   {
     "name": "Film Docket",
     "description": "Web application where authenticated users can create lists of movies",
     "link": "https://github.com/johnnybejar/movies",
     "deploy_link": "",
-    "icons": ["react", "typescript", "mongodb", "node"]
+    "icons": ["react", "typescript", "mongodb", "nodejs"]
   },
   {
     "name": "MySpotifyData",
